@@ -123,10 +123,10 @@
 // console.log (product (1,2)(2,3)(3,4))
 
 
-// Closure - Task 5 (Incorrect)
+// Closure - Task 5
 // function makePassword (a){
-//   return function () {
-//     if (a == sendPassword) return true
+//   return function (b) {
+//     if (a == b) return true
 //         else return false
 //   }
 // }
