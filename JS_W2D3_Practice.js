@@ -1,4 +1,4 @@
-// Array - Task 1
+// Array - ClassTask 1
 // function getFirstValue (a){
 //     return a.shift()
 // }
@@ -7,7 +7,7 @@
 // console.log(getFirstValue([-500, 0, 50]));
 
 
-// Array - Task 2 - Version 1
+// Array - ClassTask 2 - Version 1
 // function makePair (a,b){
 //     let c = []
 //     c.push(a,b)
@@ -16,14 +16,14 @@
 // console.log(makePair(1,2));
 
 
-// Array - Task 2 - Version 2
+// Array - ClassTask 2 - Version 2
 // function makePair (a,b){
 //     return [a,b]
 // }
 // console.log(makePair(1,2));
 
 
-// Array - Task 3
+// Array - ClassTask 3
 // function reverse (a){
 //     return a.reverse()
 // }
@@ -32,7 +32,7 @@
 // console.log(reverse([]));
 
 
-// Array - Task 4
+// Array - ClassTask 4
 // function incrementItems (a){
 //     let b = a.map (myFunct)
 
@@ -46,7 +46,7 @@
 // console.log(incrementItems ([-1, -2, -3, -4]));
 
 
-// Array - Task 5
+// Array - ClassTask 5
 // function getLastItem (a){
 //     return a.pop()
 // }
@@ -55,7 +55,7 @@
 // console.log(getLastItem([true, false, true]));
 
 
-// Array - Task 6
+// Array - ClassTask 6
 // function arrayToString (a){
 //     return a.join ("")
 // }
@@ -64,7 +64,7 @@
 // console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]));
 
 
-// Array - Task 7
+// Array - ClassTask 7
 // function check (a,b){
 //     return a.includes(b)
 // }
@@ -73,7 +73,7 @@
 // console.log(check ([5, 5, 5, 6], 5));
 
 
-// Array - Task 8
+// Array - ClassTask 8
 // function findIndex (a,b){
 //     return a.indexOf (b)
 // }
@@ -82,7 +82,7 @@
 // console.log(findIndex(["a", "g", "y", "d"], "d"));
 
 
-// Array - Task 9
+// Array - ClassTask 9
 // function concat (a,b){
 //     return a.concat(b)
 // }
@@ -91,7 +91,7 @@
 // console.log(concat([4, 5, 1], [3, 3, 3, 3, 3]));
 
 
-// Array - Task 10
+// Array - ClassTask 10
 // function toNumberArray (a){
 //     let b = a.map(myFunct)
 //     function myFunct (x){
@@ -104,7 +104,7 @@
 // console.log(toNumberArray (["9.5", "8.8"]));
 
 
-// Array - Task Extra 12
+// Array - ClassTask Extra 12
 // function parseArray (a){
 //     let b = a.map((e) => {
 //         return e.toString()
@@ -116,7 +116,7 @@
 // console.log(parseArray([1, 2, 3, 17, 24, 3, "a", "123b"]));
 
 
-// Array - Task 11
+// Array - ClassTask 11
 // function sumArray (a){
 //     let res = a.reduce (function (x,y){
 //         return x+y
@@ -128,7 +128,7 @@
 // console.log(sumArray ([0, 4, 8, 12]));
 
 
-// Array - Task 12
+// Array - ClassTask 12
 // function arrBetween (a,b,c){
 //     let res = c.filter (myFun)
 
@@ -142,7 +142,7 @@
 // console.log(arrBetween(7, 32, [1, 2, 3, 78]));
 
 
-// Array - Task 13
+// Array - ClassTask 13
 // function arrayValuesTypes (a){
 //     res = a.map (function (value){
 //         return typeof(value)
@@ -154,7 +154,7 @@
 // console.log(arrayValuesTypes([21.1, "float", "array", ["I’m array"], true, 214]))
 
 
-// Array - Task 14
+// Array - ClassTask 14
 // function wordLengths (a){
 //     res = a.map (function (value){
 //         return value.length
@@ -166,7 +166,7 @@
 // console.log(wordLengths(["She", "sells", "seashells", "down", "by", "the"]));
 
 
-// Array - Task 15
+// Array - ClassTask 15
 // function checkSquareAndCube(a){
 //     if (Math.sqrt (a[0])==(Math.cbrt (a[1]))) return true
 //     else return false
@@ -176,7 +176,7 @@
 // console.log(checkSquareAndCube([9, 27]));
 
 
-// Array - Task 16
+// Array - ClassTask 16
 // function invertArray (a){
 //     let res = a.map (myFun)
 
@@ -190,7 +190,7 @@
 // console.log(invertArray([]));
 
 
-// Array - Task 17
+// Array - ClassTask 17
 // function getMultipliedArr (a){
 //     let res = a.map ((value) => {
 //         return value*2
@@ -202,7 +202,7 @@
 // console.log(getMultipliedArr([5, 382, 0]));
 
 
-// Array - Task 18
+// Array - ClassTask 18
 // function getSumOfItems (a){
 //     let res = a.reduce ((x,y)=>{
 //         return x+y
@@ -214,7 +214,7 @@
 // console.log(getSumOfItems([-2, 84, 23]));
 
 
-// Array - Task 19
+// Array - ClassTask 19
 // function forbiddenLetter (l, arr){
 //     let a = arr.join("")
 //     let res = a.includes(l)
@@ -225,7 +225,7 @@
 // console.log(forbiddenLetter("m", []));
 
 
-// Array - Task 20
+// Array - ClassTask 20
 // function sumFive (a){
 //     arr = a.filter (elem => elem > 5)
 //     if (arr.length > 0) {
@@ -241,7 +241,7 @@
 // console.log(sumFive([10, 12, 28, 47, 55, 100]));
 
 
-// Array - Task 21
+// Array - ClassTask 21
 // function filterArray (a){
 //     let res = a.filter (elem => typeof (elem) == "number")
 //     return res
@@ -251,7 +251,7 @@
 // console.log(filterArray(["Nothing", "here"]));
 
 
-// Array - Task 22
+// Array - ClassTask 22
 // function evenOrOdd (a){
 //     if (a.length==0) return "Even"
 //     else {
@@ -267,7 +267,7 @@
 // console.log(evenOrOdd([0, 1, 5]));
 
 
-// Array - Task 23
+// Array - ClassTask 23
 // function rangeOfNum (a,b){
 //     let c = []
 //     for (let i=a+1; i<b; i++){
@@ -390,24 +390,12 @@
 // console.log(ascDesNone([1, 2, 3, 4], "None"));
 
 
-// Array - HomeTask 9 - ???
+// Array - HomeTask 9
 // function findNaN (a){
-//     let res
-//     for (let i=0; i<a.length; i++){
-//         if (a[i]==="NaN") res=i
-//         else res=-1
-//     }
-//     return res
-// }
-// console.log(findNaN([1, 2, NaN]));
-// console.log(findNaN([NaN, 1, 2, 3, 4]));
-// console.log(findNaN([0, 1, 2, 3, 4]));
-
-
-// Array - HomeTask 9 - ???
-// function findNaN (a){
-//     let res = a.indexOf ("NaN")
-//     return res
+//     let b = a.map ((elem) => {
+//         return elem.toString()
+//     })
+//     return b.indexOf ("NaN")
 // }
 // console.log(findNaN([1, 2, NaN]));
 // console.log(findNaN([NaN, 1, 2, 3, 4]));
