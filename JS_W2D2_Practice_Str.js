@@ -1,4 +1,4 @@
-// Task 1
+// String - Class Task 1
 // function isEmpty (a){
 //     if (a=="") return true
 //     else return false
@@ -7,7 +7,7 @@
 // console.log(isEmpty ("a"))
 
 
-// Task 2
+// String - Class Task 2
 // function concatName (a,b){
 //     let c = b.concat(", ",a)
 //     return c
@@ -15,7 +15,7 @@
 // console.log(concatName ("Jhon", "Doe"));
 
 
-// Task 3
+// String - Class Task 3
 // function oddOrEven (a){
 //     if (a.length%2 ==0) return true
 //     else return false
@@ -25,7 +25,7 @@
 // console.log (oddOrEven("cherry"))
 
 
-// Task 4
+// String - Class Task 4 - Browser
 // function isLastCharacterN (a){
 //     if (a.at (-1) === 'n') return true
 //     else return false
@@ -34,7 +34,7 @@
 // console.log (isLastCharacterN ("Bert"))
 
 
-// Task 5
+// String - Class Task 5
 // function repeatString (a,b){
 //     if (typeof (a) !== "string") return "Not a String"
 //     else return a.repeat (b)
@@ -44,7 +44,7 @@
 // console.log (repeatString (1990, 7))
 
 
-// Task 6
+// String - Class Task 6
 // function capitalLetetters (a){
 //     let str = a.split("")
 //     let cnt=0
@@ -58,7 +58,7 @@
 // console.log(capitalLetetters ("mqeytbbjwqemcdrdsyvq"));
 
 
-// Task 7
+// String - Class Task 7
 // function calculate (a,b,c){
 //     if (c == "+") return a+b
 //     else if (c == "-") return a-b
@@ -71,7 +71,7 @@
 // console.log(calculate (14,3,"%"));
 
 
-// Task 8
+// String - Class Task 8
 // function numberSyllables (a){
 //     let b = a.split ("-")
 //     return b.length
@@ -81,7 +81,7 @@
 // console.log(numberSyllables("on-o-mat-o-poe-ia"));
 
 
-// Task 9
+// String - Class Task 9
 // function evenOddString (a) {
 //     let b = ""
 //     let c = ""
@@ -94,18 +94,30 @@
 // console.log(evenOddString("airforce"));
 
 
-// Task 10 - Incorrect
+// String - Class Task 10 - Version 1
 // function potatoes (a){
-//     let cnt=0
-//     if (a.includes("potato")==true) cnt++
-//     return cnt
+//     return a.split("potato").length-1
 // }
 // console.log(potatoes("potato"));
 // console.log(potatoes("potatopotato"));
 // console.log(potatoes("potatoapple"));
 
 
-// Task 11
+// String - Class Task 10 - Version 2 Browser
+// function potatoes (a){
+//     a = a.replaceAll ("potato", "@")
+//     let k=0
+//     for (let i=0; i<a.length; i++){
+//         if (a[i] == "@") k++
+//     }
+//     return k
+// }
+// console.log(potatoes("potato"));
+// console.log(potatoes("potatopotato"));
+// console.log(potatoes("potatoapple"));
+
+
+// String - Class Task 11
 // function detectWord (a){
 //     let b = ""
 //     for (let i=0; i<a.length; i++){
@@ -118,7 +130,7 @@
 // console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment"));
 
 
-// Task Additional 1
+// String - Class Task Additional 1
 // function comp (a,b){
 //     let cnt1 = 0
 //     let cnt2 = 0
@@ -132,7 +144,7 @@
 // console.log(comp("hello", "edabit"));
 
 
-// Task Additional 2
+// String - Class Task Additional 2
 // function replaceVowel (a){
 //     let b = ""
 //     for (let i=0; i<a.length; i++){
@@ -152,10 +164,7 @@
 
 
 
-
-
-
-// Home Task 1
+// String - Home Task 1 - Browser
 // function modifyLast (a, b){
 //     let c = a.at(-1)
 //     let d = c.repeat(b-1)
@@ -166,7 +175,7 @@
 // console.log(modifyLast("excuse me what?", 5));
 
 
-// Home Task 2 - Browser
+// String - Home Task 2 - Browser
 // function firstLast (a){
 //     let b = a.at(0)
 //     let c = a.at(-1)
@@ -177,7 +186,7 @@
 // console.log(firstLast("vishnu"));
 
 
-// Home Task 3
+// String - Home Task 3
 // function toInt (a){
 //     return Number(a)
 // }
@@ -190,7 +199,7 @@
 // console.log(toStr(532));
 
 
-// Home Task 4
+// String - Home Task 4 - Browser
 // function isPlural (a){
 //     if (a.at(-1) == "s") return true
 //     else return false
@@ -200,7 +209,7 @@
 // console.log(isPlural ("dudes"));
 
 
-// Home Task 5
+// String - Home Task 5
 // function reverseCapitalize (str){
 //     let b =""
 //     for (let i=str.length-1; i>=0; i--){
@@ -213,7 +222,7 @@
 // console.log(reverseCapitalize("input"));
 
 
-// Home Task 6
+// String - Home Task 6
 // function checkEnding (a, b){
 //     let res = a.includes(b)
 //     return res
@@ -223,7 +232,7 @@
 // console.log(checkEnding("feminine","nine"));
 
 
-// Home Task 7
+// String - Home Task 7
 // function checkPalindrome (a){
 //     let b =""
 //     for (let i=a.length-1; i>=0; i--){
@@ -237,7 +246,7 @@
 // console.log(checkPalindrome("reviver"));
 
 
-// Home Task 8
+// String - Home Task 8
 // function charCount (a,b){
 //     let cnt = 0
 //     for (let i=0; i<b.length; i++){
@@ -250,7 +259,7 @@
 // console.log(charCount("b","big fat bubble"));
 
 
-// Home Task 9
+// String - Home Task 9
 // function capToFront (a){
 //     let b = ""
 //     let c = ""
@@ -265,4 +274,5 @@
 // console.log(capToFront ("shOrtCAKE"));
 
 
-// Home Task 10
+// String - Home Task 10
+
