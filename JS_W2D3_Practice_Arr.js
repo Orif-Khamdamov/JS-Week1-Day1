@@ -280,10 +280,12 @@
 // console.log(rangeOfNum(2, 11));
 
 
+
+
+
 // Array - HomeTask 1 - ???
-// function concat (a,b,c){
-//     let res = a.concat(b,c)
-//     return res
+// function concat (a,b,...n){
+//     return [...a,...b,...n]
 // }
 // console.log(concat([1, 2, 3], [4, 5], [6, 7]));
 // console.log(concat([1], [2], [3], [4], [5], [6], [7]));
@@ -344,8 +346,9 @@
 
 // Array - HomeTask 6
 // function mirror (a){
-//     let b = a.slice().reverse()
-//     let res = a.concat(b)
+//     let b = a.slice(0,-1)
+//     let c = a.slice().reverse()
+//     let res = b.concat(c)
 //     return res
 // }
 // console.log(mirror([0, 2, 4, 6]));
