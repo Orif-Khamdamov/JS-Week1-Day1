@@ -81,10 +81,10 @@
 // console.log(longestTime(15, 955, 59400));
 
 
-// Date - Class Task 9 - ?
+// Date - Class Task 9
 // function getDay (date){
 //     let m,d,y
-//     [d,m,y] = date.split("/")
+//     [m,d,y] = date.split("/")
 //     let myDate = new Date (y,m-1,d)
     
 //     let objWeek = {
